@@ -1,0 +1,28 @@
+/* Selector universal*/
+* {
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Selectores de tipo: selecciona elementos tag html */
+body{
+    background: #f2f2f2;
+}
+h1{
+    background-color: black;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* selectores de clase o de id */
+.bg-azul{
+    background: blue;
+    color: white;
+}
+
+#mi-titulo{
+    font-size: 30px;
+    background-color: red;
+}
