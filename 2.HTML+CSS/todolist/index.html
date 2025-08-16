@@ -14,33 +14,20 @@
     <div class="container">
         <h1>T O D O</h1>
         <div class="input-section">
-            <input type="text" placeholder="Escriba su tarea aquí..."> 
-            <button>+</button>
+            <input id="todo-input" type="text" placeholder="Escriba su tarea aquí..." value=""> 
+            <button id="add-btn">+</button>
         </div>
         <ul id="todo-list">
-            <li>
-                <div class="todo-item">
-                    <input type="checkbox">
-                    <span>Tarea 1</span>
-                </div>
-                <button><i class="bi bi-file-x-fill"></i></button>
-            </li>
-            <li>
-                <div class="todo-item">
-                    <input type="checkbox">
-                    <span>Tarea 2</span>
-                </div>
-                <button><i class="bi bi-file-x-fill"></i></button>
-            </li>
+            
         </ul>
         <div class="footer">
             <span>0 Items</span>
             <div>
                 <button class="filter-btn active">Todo</button>
-                <button class="filter-btn">Activos</button>
-                <button class="filter-btn">Completados</button>
+                <button class="filter-btn">Activas</button>
+                <button class="filter-btn">Completadas</button>
             </div>
-            <button id="clear-completed">Limpiar Completados</button>
+            <button id="clear-completed">Limpiar Completadas</button>
         </div>
     </div>
     <script src="./script.js"></script>
